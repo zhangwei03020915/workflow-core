@@ -6,7 +6,7 @@ namespace WorkflowCore.Sample09
 {    
     public class ForEachWorkflow : IWorkflow
     {
-        public string Id => "Foreach";
+        public string Id => "ForeachSync";
         public int Version => 1;
 
         public void Build(IWorkflowBuilder<object> builder)
